@@ -15,6 +15,12 @@ sudo apt-get update
 sudo apt-get install dotnet-sdk-2.1.103
 ```
 
+## Verify installation
+
+```
+dotnet --version
+```
+
 ## Build and run in single step
 
 This is easier while iterating during development, but takes longer if you're testing different inputs because it rebuilds every time.
